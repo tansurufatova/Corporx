@@ -1,0 +1,137 @@
+* { margin: 0px; padding: 0px; box-sizing: border-box; }
+
+.btn-secondary { color: #ffffff!important;background-color: #e80566!important;border-color: #e80566!important; }
+.btn-outline-primary { color: #1A2C79!important;border-color: #1A2C79!important; }
+.btn-outline-primary:hover { color: #fff!important; background-color: #1A2C79!important; }
+.btn-primary { background-color: #1A2C79!important; color: #fff!important; }
+
+.bg-pink { background-color: #e80566; }
+.bg-default { background-color: #0648B3 !important; }
+.bg-blue { background-color: #1A2C79; }
+.bg-soft-alt { background-color: rgba(245, 245, 245, 0.15); }
+.bg-open-bl { background-color: #547fc5!important; }
+
+.text-blue { color: #1A2C79!important; }
+.color-yellow { color: rgb(202, 202, 21); }
+.text-secondaryy { color: #e80566 !important; }
+.footer ul li a:hover { color: #fff!important;}
+
+.btn.btn-pill { border-radius: 2rem; }
+.section-lg { padding-top: 8rem;padding-bottom: 8rem; }
+.font-weight-bold { font-weight: 600 !important; }
+
+.Services-card a { text-decoration: none; }
+.Services-card a i:hover { margin-left: 2%; }
+.Services-card { border-radius:1rem; }
+
+.mb15 { margin-bottom: 9%; }
+.rounded-custom { border-radius: 1rem; }
+
+.bg-pink-img { background-color: #e80566;position: relative;  border-top-right-radius: 8rem; border-bottom-left-radius:17rem;border-bottom-right-radius: 10rem; border-top-left-radius: 13rem;}
+
+.card-body a { text-decoration: none; font-weight: 600; }
+.card-body a i:hover  { margin-left: 2%; }
+
+.team-list li a { text-decoration: none;color: #1A2C79!important; }
+
+.say-text p { font-style: italic;font-size: 1.12rem; }
+.say-img img { width: 45px; }
+
+.footer ul { margin-bottom: 0;padding: 0; list-style: none; }
+.footer ul li a { text-decoration: none; }
+
+
+
+/*masaustu*/
+@media only screen and (min-width:992px) {
+    .navbar ul li a { font-weight: 500; }
+    .text-header h1 { font-weight: 700; font-size: 3.9rem; }
+    .lead-text { font-size: 1.27rem; font-weight: 400; }
+    .section-title h2 { font-family: "Archivo", sans-serif;font-weight: 600; }
+    .section-title p { line-height: 1.7; }
+    .Services-card img { margin-left: 30%; }
+    .about-img img { border-top-right-radius: 7rem; border-bottom-left-radius:17rem; border-top-left-radius: 13rem;border-bottom-right-radius: 8rem; }
+    .bg-pink-img { background-color: #e80566;position: relative;  border-top-right-radius: 8rem; border-bottom-left-radius:17rem;border-bottom-right-radius: 10rem; border-top-left-radius: 13rem;}
+    .best h2 { font-weight: 700; }
+    .say-icon i { font-size: 55px; height: 55px; }
+    .our-time li i { background: rgba(255, 255, 255, 0.1);width: 30px; height: 25px;border-radius: 15px; }
+    .our-time li  i:first-child { margin-left: 17%; }
+    .our-time li i:hover { background-color: #ffffff; color: #162F62!important; }
+    .card-team  { width: 120px!important; margin-left: 30%; }
+}
+
+
+/*mobil*/
+@media only screen and (max-width:768px) {
+    .navbar ul li a { font-size: 19px; }
+    .navbar-toggler { width: 75px;height: 50px; }
+    .logo-menu img {  width: 220px; }
+    .text-header h1 { font-weight: 700; font-size: 1.9rem; }
+    .lead-text { font-size: 1.32rem; font-weight: 400;line-height: 1.7rem; }
+    .section-title h2 { font-family: "Archivo", sans-serif;font-weight: 600; }
+    .section-title p { line-height: 1.7; }
+    .Services-card img { margin-left: 30%; }
+    .say-text p { font-style: italic;font-size: 1.12rem; }
+    .say-img img { width: 45px; }
+    .say-icon i { font-size: 40px; }
+    .card-team  { width: 120px!important; margin-left: 35%; }
+    .about-img img { border-top-right-radius: 7rem; border-bottom-left-radius:17rem; border-top-left-radius: 13rem;border-bottom-right-radius: 8rem; }
+    .bg-pink-img { background-color: #e80566;position: relative;  border-top-right-radius: 8rem; border-bottom-left-radius:17rem;border-bottom-right-radius: 10rem; border-top-left-radius: 13rem;}
+}
+
+
+/*tablet*/
+@media only screen and (min-width:769px) and ( max-width:991px)  {
+    .navbar ul li a { font-size: 20px; }
+    .navbar-toggler { width: 75px;height: 50px; }
+    .logo-menu img {  width: 250px; }
+    .text-header h1 { font-weight: 700; font-size: 1.9rem; }
+    .lead-text { font-size: 1.32rem; font-weight: 400;line-height: 1.7rem; }
+    .big-img  { width: 30rem; }
+    .card-team  { width: 120px!important; margin-left: 30%; }
+    .about-img img {margin-left: 10%;padding-bottom: 20px;padding-top: 15px; border-top-right-radius: 7rem; border-bottom-left-radius:17rem; border-top-left-radius: 13rem;border-bottom-right-radius: 8rem; }
+    .bg-pink-img { background-color: #e80566;position: relative;  border-top-right-radius: 5rem; border-bottom-left-radius:17rem;border-bottom-right-radius: 7rem; border-top-left-radius: 13rem;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.resim{ display: inline-block;overflow: hidden;position: relative;opacity: .99;border-radius: 4px;box-shadow: 0 0 20px 0 rgba(0,0,0,0.05); }
+.resim:before{  content: '';background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.7)100%); background: -webkit-linear-gradient(top, transparent 0%, rgba(0,0,0,0.7)100%);height: 50%;position: absolute;top: 100%;z-index: 2;transition-property: top,opacity;transition-duration: 0.3s; }
+
+.resim img{ display: block; }
+.detay{  color: #1A2C79;font-size: 30px;padding: 20px; position: absolute;bottom: 0;left: 0; z-index: 3; }
+.detay span{ display: block;position: relative;top: 100px;transition-property: top, opacity;transition-duration: 0.3s;transition-delay: 0s; }
+.baslik{ line-height: 1;font-weight: bold;font-size: 18px;background-color: #fff;border-top-left-radius: 10px;border-top-right-radius: 10px; }
+.bilgi{ line-height: 1.2;font-size: 18px;background-color: #fff;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px; }
+.resim:focus:before,.resim:focus span, .resim:hover:before, .resim:hover span{ opacity: 1; }
+.resim:focus:before,.resim:hover:before{ top:50%; }
+.resim:focus span,.resim:hover span{ top:0; }
